@@ -79,15 +79,15 @@ int IsBanlanced(char expression[])
 	return ret;
 }
 
-int main_10()
+int main()
 {
 	char expression[MAX_SIZE];
-	//printf("输入表达式：\n");
+	//printf("杈撳叆琛ㄨ揪寮忥細\n");
 	scanf_s("%s", expression);
 	top = NULL;
 
-	if (IsBanlanced(expression)) printf("括号配对\n");
-	else printf("括号不配对\n");
+	if (IsBanlanced(expression)) printf("鎷彿閰嶅\n");
+	else printf("鎷彿涓嶉厤瀵筡n");
 
 	return 0;
 }
